@@ -1,0 +1,29 @@
+.socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #ac9555;
+}
+.mail {
+  background: #ac9555;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 35px;
+  color: #222629;
+}
+@media only screen and (max-width: 520px) {
+  .socialContainer {
+    gap: 10px;
+  }
+  .icon {
+    font-size: 32px;
+    color: #ac9555;
+  }
+  .mail {
+    font-size: 28px;
+  }
+}
